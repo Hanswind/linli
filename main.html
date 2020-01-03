@@ -4,30 +4,40 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <link rel="stylesheet" href="main.css" />
-    <!--나눔고딕-->
-    <link
-      href="https://fonts.googleapis.com/css?family=Nanum+Gothic&display=swap"
-      rel="stylesheet"
-    />
+    <link rel="stylesheet" href="css/main.css" />
     <title>리앤리의원</title>
+    <!--폰트-->
+    <link href="https://fonts.googleapis.com/css?family=Noto+Sans+KR:100,300,400,500,700,900&display=swap&subset=korean" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Noto+Serif+KR:400,500,600,700,900&display=swap&subset=korean" rel="stylesheet">
   </head>
   <body>
-    <div class="logo"></div>
+  <!-- 공통 부분-->
+    <header>
+      <div class="logo">
+        <img src = "./images/logo1.png" />
+      </div>
+    </header>
+
     <nav>
-      <ul>
-        <li>리앤리 소개</li>
-        <li>올인원 시술</li>
-        <li>시술 후기</li>
-        <li>시술후 주의사학</li>
-        <li>오시는 길</li>
+      <ul class = "nav">
+        <li><a>리앤리 소개</a></li>
+        <li><a>올인원 시술</a></li>
+        <li><a>시술 후기</a></li>
+        <li><a>시술후 주의사항</a></li>
+        <li><a>오시는 길</a></li>
       </ul>
     </nav>
-    <section>
+
+  <!-- 메인 콘텐츠 영역-->
+    <section include-html="./html/mainSection.html">
       <article><!-- 리앤리 소개--></article>
       <article><!-- 올인원 시술 간략 소개--></article>
       <article><!-- 리앤리 스페이스--></article>
     </section>
+
     <footer></footer>
+  <h3 style="font-family: 'Noto Serif KR'">&nbsp;피부과 · 내과</h3>
+
   </body>
+  <script type="text/javascript" src="js/main.js"></script>
 </html>
