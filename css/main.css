@@ -15,11 +15,11 @@
   background-color: #fde0e1;
   min-width: 200px;
   height: 200px;
+  text-align : center;
 }
 
 .location{  /* 위치 */
   background-color : #b068b0;
-  text-align : center;
   color: #fff;
 }
 .location > img {
@@ -29,7 +29,6 @@
 
 
 .contact{  /* 대표번호 */
-  text-align: center;
   background-color: #eee;
   color: #333;
 }
@@ -43,6 +42,10 @@
 .time{     /* 영업 시간 */
   background-color: #3f4149;
   color: #fff;
+}
+
+.time > dis {
+  padding: 0 20% 0 20%;
 }
 
 
@@ -87,6 +90,7 @@ article {
 /* 네비게이션 바 컨텐츠 */
 .nav {
   margin :0 auto;
+  padding: 0;
   z-index: 2;
 
 }
@@ -169,4 +173,21 @@ body {
   font-family: 'Noto Sans KR', sans-serif;
 }
 
+/* 반응형 웹 */
+
+@media all and (max-width : 800px){
+
+  /* nav 반응형 */
+  nav {
+    height : 50px;
+  }
+  .nav > li {
+    font-size : 2vw;
+    padding-left: 3%;
+    padding-right: 3%;
+    line-height: 50px;
+    height: 50px;
+  }
+  
+}
 
