@@ -18,7 +18,7 @@
       </div>
     </header>
 
-    <nav>
+    <nav class="sticky">
       <ul class = "nav">
         <li><a>리앤리 소개</a></li>
         <li><a>올인원 시술</a></li>
@@ -33,11 +33,40 @@
       <article><!-- 리앤리 소개--></article>
       <article><!-- 올인원 시술 간략 소개--></article>
       <article><!-- 리앤리 스페이스--></article>
+      <div class="flex-container">
+        <div class = "flex-div location">
+          <h3>오시는 길</h3>
+          <br>
+          <img src="images/maps-and-flags.svg" alt="location svg">
+        </div>
+
+        <!-- 리앤리 대표번호 -->
+        <div class = "flex-div contact">
+          <h3>리앤리 대표번호</h3>
+          <h1>02-833-1751</h1>
+          <div class = "call cursor">상담 및 예약하기</div>
+        </div>
+
+        <!-- 리앤리 진료시간 -->
+        <div class = "flex-div time">
+          <h3>리앤리 진료시간</h3>
+          <p>[평 &nbsp;&nbsp;&nbsp;일] &nbsp;&nbsp;&nbsp;오전 10:00 ~ 오후 06:30<br>
+          [토요일] &nbsp;&nbsp;&nbsp;오전 10:00 ~ 오후 <span style="color: lightskyblue">02:30</span><br>
+          (토요일은 점심시간 없이 진료합니다)<br>
+
+          <p>[점심시간] 오후 12:30 ~ 오후 02:00<br>
+          <span style="color : orange">일요일 및 공휴일은 휴진입니다.</span></p>
+          </p>
+        </div>
+      </div>
     </section>
 
-    <footer></footer>
-  <h3 style="font-family: 'Noto Serif KR'">&nbsp;피부과 · 내과</h3>
-
+    <footer>
+      <p>서울특별시 구로구 경인로67길 23 신도림동 338 신도림2차푸르지오 101동 309호 | TEL : 02-833-1751<br>
+        상호명 : 리앤리가정의학과의원 | 대표 : 이규완 원장
+      </p><br>
+      <p style="color:#222">Copyright 2020 L&L Family Medicine | All Rights Reserved</p>
+    </footer>
+    <script type="text/javascript" src="./js/main.js"></script>
   </body>
-  <script type="text/javascript" src="js/main.js"></script>
 </html>
