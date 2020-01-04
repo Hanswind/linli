@@ -153,8 +153,8 @@ section {
   height: auto;
 }
 footer {
-  margin: 0 auto;
-  width: 100%;
+  margin: 0 0;
+  width: auto;
   background-color: #ddd;
   height: auto;
   text-align: center;
@@ -188,6 +188,6 @@ body {
     line-height: 50px;
     height: 50px;
   }
-  
+
 }
 
