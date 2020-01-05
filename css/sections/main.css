@@ -197,6 +197,15 @@
 
 
 /* 반응형 웹 */
+@media all and (max-width: 1200px){
+  /* 슬라이더 이미지 크기 */
+  .slider > li {
+    height: 34vw;
+  }
+  .slider {
+    margin : 0 auto;
+  }
+}
 
 @media all and (max-width : 1000px){
   /* article - 올인원 반응형 */
@@ -218,10 +227,6 @@
     font-size: 3vw;
   }
 
-  /* 슬라이더 이미지 크기 */
-  .slider > li {
-    height: 35vw;
-  }
 }
 
 
