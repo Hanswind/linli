@@ -29,15 +29,17 @@
     height :70px;
     border-bottom : 3px;
     padding-top : 21px;
+    color : #000;
 
 }
 .nav > li:hover {
     background-color: #fde0ec;
-    color : #b068b0;
+    color : #b068b0!important;
     transition: background-color 0.5s, color 0.5s;
     -webkit-transition: background-color 0.5s, color 0.5s;
     border-bottom : 3px solid #b068b0 ;
 }
+
 
 
 /* 전체 영역 세션 구조 */
@@ -100,6 +102,11 @@ body {
 
 * {
     font-family: 'Noto Sans KR', sans-serif;
+}
+
+a {
+    text-decoration: none;
+    color : #222;
 }
 
 
