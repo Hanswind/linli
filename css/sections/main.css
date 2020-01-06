@@ -1,17 +1,41 @@
+
+
 /* article 컨텐츠 - 인트로 */
 #intro {
-  height: 400px;
-  background-color: #fde0ec;
   text-align: center;
-  line-height: 100px;
+  padding : 80px 0 30px 0;
+  overflow: hidden;
+  background : url("../../images/linli_intro.png") no-repeat;
+  background-position: center;
+  background-size : 1130px 100%;
+  background-attachment: fixed;
+  color : #bbb;
+  height: 400px;
 }
+
 
 #intro > h1 {
-  font-size: 40px;
+  display: inline-block;
+  font-size: 50px;
   margin: 0 auto;
-  padding: 20px;
+  padding: 30px;
+  color : #fff;
+  font-weight: lighter;
 }
 
+#intro > p {
+  padding : 0 10px 0 10px;
+  font-size : 25px;
+  font-weight: lighter;
+}
+
+.intro_detail:hover {
+  background-color : #111!important;
+  opacity: 0.8;
+  border : 1px hidden!important;
+  color : #fff;
+
+}
 
 /* article 컨텐츠 - 리앤리 스페이스 */
 .space_name {
@@ -102,6 +126,7 @@
   padding: 0;
   list-style: none;
   font-size: 20px;
+  line-height: 40px;
 }
 
 .discription > ul > p {
