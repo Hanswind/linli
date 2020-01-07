@@ -1,40 +1,36 @@
-
-
 /* article 컨텐츠 - 인트로 */
 #intro {
   text-align: center;
-  padding : 80px 0 30px 0;
+  padding: 80px 0 30px 0;
   overflow: hidden;
-  background : url("../../images/linli_intro.png") no-repeat;
+  background: url("../../images/linli_intro.png") no-repeat;
   background-position: center;
-  background-size : 1130px 100%;
+  background-size: 1130px 100%;
   background-attachment: fixed;
-  color : #bbb;
+  color: #bbb;
   height: 400px;
 }
-
 
 #intro > h1 {
   display: inline-block;
   font-size: 50px;
   margin: 0 auto;
   padding: 30px;
-  color : #fff;
+  color: #fff;
   font-weight: lighter;
 }
 
 #intro > p {
-  padding : 0 10px 0 10px;
-  font-size : 25px;
+  padding: 0 10px 0 10px;
+  font-size: 25px;
   font-weight: lighter;
 }
 
 .intro_detail:hover {
-  background-color : #111!important;
+  background-color: #111 !important;
   opacity: 0.8;
-  border : 1px hidden!important;
-  color : #fff;
-
+  border: 1px hidden !important;
+  color: #fff;
 }
 
 /* article 컨텐츠 - 리앤리 스페이스 */
@@ -46,7 +42,6 @@
   font-weight: bold;
 }
 .slider_wrap {
-  width: 60%;
   padding: 10px 20% 10px 20%;
   margin: 0 auto;
   height: auto;
@@ -57,24 +52,23 @@
 
 .slider {
   list-style: none;
-  width : calc(100% * 8);   /* 이미지 개수에 따라 조절 */
+  width: calc(100% * 8); /* 이미지 개수에 따라 조절 */
   display: flex;
   animation: slide 40s infinite;
   padding: 0;
 }
 
 .slider > li {
-  width : calc(100% / 8); /* 이미지 개수에 따라 조절 */
+  width: calc(100% / 8); /* 이미지 개수에 따라 조절 */
   background-color: #fff2f7;
   margin: 0 20px 0 20px;
   height: 400px;
 }
 
 .slider > li > img {
-  width : 100%;
+  width: 100%;
   height: 100%;
 }
-
 
 /* 슬라이더 버튼 */
 .btns {
@@ -95,7 +89,6 @@
   left: 0;
 }
 
-
 /* article 컨텐츠 - 올인원 시술*/
 #allInOne {
   text-align: left;
@@ -105,7 +98,6 @@
   background-size: 100% 100%;
   opacity: 1;
   z-index: -1;
-
 }
 .discription {
   padding: 20px 80px 20px 80px;
@@ -118,7 +110,7 @@
 }
 
 .discription > p {
-  font-size : 30px;
+  font-size: 30px;
 }
 
 .discription > ul {
@@ -136,7 +128,7 @@
 .view_more {
   text-align: center;
   width: 200px;
-  margin : 0 auto;
+  margin: 0 auto;
   padding: 20px;
   border: 1px solid #ddd;
 }
@@ -157,16 +149,17 @@
 
 .flex-div {
   padding: 10px 30px 30px 30px;
-  margin : 5px;
-  flex : 1 1 auto;
+  margin: 5px;
+  flex: 1 1 auto;
   background-color: #fde0e1;
   min-width: 200px;
   height: 200px;
-  text-align : center;
+  text-align: center;
 }
 
-.location{  /* 위치 */
-  background-color : #b068b0;
+.location {
+  /* 위치 */
+  background-color: #b068b0;
   color: #fff;
 }
 .location > img {
@@ -174,19 +167,20 @@
   height: 40%;
 }
 
-
-.contact{  /* 대표번호 */
+.contact {
+  /* 대표번호 */
   background-color: #eee;
   color: #333;
 }
 
 .contact > h1 {
   line-height: 45px;
-  color : #673A71;
+  color: #673a71;
   font-size: 35px;
 }
 
-.time{     /* 영업 시간 */
+.time {
+  /* 영업 시간 */
   background-color: #3f4149;
   color: #fff;
 }
@@ -194,7 +188,6 @@
 .time > dis {
   padding: 0 20% 0 20%;
 }
-
 
 /* 상담 및 예약 버튼 */
 .call {
@@ -213,32 +206,28 @@
 }
 
 /* 마우스 오버시 커서 */
-.cursor { cursor: pointer; }
-
-
-
-
-
-
+.cursor {
+  cursor: pointer;
+}
 
 /* 반응형 웹 */
-@media all and (max-width: 1200px){
+@media all and (max-width: 1200px) {
   /* 슬라이더 이미지 크기 */
   .slider > li {
-    height: 34vw;
+    height: auto;
   }
   .slider {
-    margin : 0 auto;
+    margin: 0 auto;
   }
 }
 
-@media all and (max-width : 1000px){
+@media all and (max-width: 1000px) {
   /* article - 올인원 반응형 */
   .discription {
     padding: 5px 7% 5px 7%;
     transition: padding 0.5s;
   }
-  .discription > h1{
+  .discription > h1 {
     font-size: 6vw;
   }
   .discription > p {
@@ -251,29 +240,59 @@
   .discription > ul > li {
     font-size: 3vw;
   }
-
 }
-
 
 /* 리앤리 슬라이더 */
 @keyframes slide {
-  0% {margin-left : 0;}  /* 0~8 : 정지 */
-  8% {margin-left: 0;} /* 8~12.5 : 변이 */
-  12.5% {margin-left : -100%;}
-  20.5% {margin-left : -100%;}
-  25% {margin-left: -200%;}
-  33% {margin-left: -200%;}
-  37.5% {margin-left: -300%;}
-  45.5% {margin-left: -300%;}
-  50% {margin-left: -400%;}
-  58% {margin-left: -400%;}
-  62.5% {margin-left: -500%;}
-  70.5% {margin-left: -500%;}
-  75% {margin-left: -600%;}
-  83% {margin-left: -600%;}
-  87.5% {margin-left: -700%}
-  95.5% {margin-left: -700%;}
-  100% {margin-left: 0;}
-
-
+  0% {
+    margin-left: 0;
+  } /* 0~8 : 정지 */
+  8% {
+    margin-left: 0;
+  } /* 8~12.5 : 변이 */
+  12.5% {
+    margin-left: -100%;
+  }
+  20.5% {
+    margin-left: -100%;
+  }
+  25% {
+    margin-left: -200%;
+  }
+  33% {
+    margin-left: -200%;
+  }
+  37.5% {
+    margin-left: -300%;
+  }
+  45.5% {
+    margin-left: -300%;
+  }
+  50% {
+    margin-left: -400%;
+  }
+  58% {
+    margin-left: -400%;
+  }
+  62.5% {
+    margin-left: -500%;
+  }
+  70.5% {
+    margin-left: -500%;
+  }
+  75% {
+    margin-left: -600%;
+  }
+  83% {
+    margin-left: -600%;
+  }
+  87.5% {
+    margin-left: -700%;
+  }
+  95.5% {
+    margin-left: -700%;
+  }
+  100% {
+    margin-left: 0;
+  }
 }

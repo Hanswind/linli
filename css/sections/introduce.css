@@ -1,0 +1,51 @@
+/* 리앤리 소개 - 디테일 */
+#doctor_detail {
+  position: relative;
+}
+
+#doctor_detail > h1 {
+  padding: 0 0 0 10%;
+  color: #673a71;
+  font-size: 25px;
+}
+
+#doctor_detail > div > img {
+  display: inline-block;
+}
+
+#doctor_detail > div {
+  padding: 0 0 0 10%;
+  text-align: center;
+  display: inline-block;
+}
+
+#doctor_detail > div > div {
+  display: inline-block;
+  text-align: left;
+}
+/* 리앤리 소개 - 인사말 */
+
+#doctor {
+  padding: 20px 0 20px 0;
+  text-align: center;
+  font-weight: lighter;
+}
+
+#doctor > p {
+  font-size: 25px;
+}
+
+/* 리앤리 소개 기본 구조 */
+article {
+  background-color: #eee;
+}
+section {
+}
+
+/* 반응형 */
+
+@media all and (max-width: 1200px) {
+  #doctor > p {
+    font-size: 2vw;
+  }
+}
