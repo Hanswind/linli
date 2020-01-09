@@ -100,6 +100,7 @@
   z-index: -1;
 }
 .discription {
+  text-align: center;
   padding: 20px 80px 20px 80px;
   font-weight: lighter;
 }
