@@ -21,7 +21,7 @@
 }
 
 #intro > p {
-  padding: 0 10px 0 10px;
+  padding: 0 30px;
   font-size: 25px;
   font-weight: lighter;
 }
@@ -42,7 +42,7 @@
   font-weight: bold;
 }
 .slider_wrap {
-  padding: 10px 20% 10px 20%;
+  padding: 10px 10%;
   margin: 0 auto;
   height: auto;
   position: relative;
@@ -126,13 +126,6 @@
   font-size: 25px;
 }
 
-.view_more {
-  text-align: center;
-  width: 200px;
-  margin: 0 auto;
-  padding: 20px;
-  border: 1px solid #ddd;
-}
 .view_more:hover {
   background-color: #fff2f7;
   border: 1px solid #fff2f7;

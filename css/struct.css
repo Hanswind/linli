@@ -1,3 +1,13 @@
+/* 더보기 버튼 */
+.view_more {
+  text-align: center;
+  width: 200px;
+  margin: 0 auto;
+  padding: 20px;
+  border: 1px solid #ddd;
+}
+
+
 /* 카테고리 클래스 */
 .category {
   font-size: 40px;
@@ -109,7 +119,7 @@ a {
   color: #222;
 }
 .empty {
-  height: 200px;
+  height: 50px;
 }
 
 /* nav 반응형 */
@@ -123,5 +133,14 @@ a {
     padding-right: 3%;
     line-height: 50px;
     height: 50px;
+  }
+
+
+
+}
+
+@media all and (max-width: 500px) {
+  .category {
+    font-size: 7vw;
   }
 }
