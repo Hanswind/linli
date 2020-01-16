@@ -61,8 +61,7 @@
 .slider > li {
   width: calc(100% / 8); /* 이미지 개수에 따라 조절 */
   background-color: #fff2f7;
-  margin: 0 20px 0 20px;
-  height: 400px;
+  margin: 0 20px;
 }
 
 .slider > li > img {
