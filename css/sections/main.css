@@ -126,8 +126,12 @@
 }
 
 .view_more:hover {
-  background-color: #fff2f7;
-  border: 1px solid #fff2f7;
+  border: 1px solid #673A71;
+  transition : all 1s ease-in-out;
+}
+
+.discription > .view_more:hover {
+  color : #673A71;
 }
 
 /* flexbox 컨텐츠 */
