@@ -154,8 +154,10 @@
   text-align: center;
 }
 
+
+/* 위치 */
 .location {
-  /* 위치 */
+  cursor : pointer;
   background-color: #b068b0;
   color: #fff;
 }
