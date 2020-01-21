@@ -113,3 +113,9 @@ article {
     font-size: 100%;
   }
 }
+
+@media all and (max-width : 600px){
+  .linli_images .linli_image {
+    height : 50vw;
+  }
+}
