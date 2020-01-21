@@ -1,3 +1,5 @@
+@import "../struct.css";
+
 .way {
     display: flex;
     justify-content: center;

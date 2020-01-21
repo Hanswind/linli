@@ -12,6 +12,7 @@
       <list>
         <option value="JavaScript File" />
         <option value="HTML File" />
+        <option value="CSS File" />
       </list>
     </option>
   </component>
@@ -29,21 +30,31 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\Chayan\Documents\GitHub\linli\js" />
+      <recent name="C:\Users\Chayan\Documents\GitHub\linli\images" />
       <recent name="C:\Users\Chayan\Documents\GitHub\linli\css" />
+      <recent name="C:\Users\Chayan\Documents\GitHub\linli\js" />
       <recent name="C:\Users\Chayan\Documents\GitHub\linli" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="JavaScript Debug.introduce.html">
+    <configuration name="caution.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:8080/linli/html/caution.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
+    <configuration name="introduce.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:8080/linli/html/introduce.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
     <configuration name="main.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/linli/main.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JavaScript Debug.introduce.html" />
         <item itemvalue="JavaScript Debug.main.html" />
+        <item itemvalue="JavaScript Debug.caution.html" />
       </list>
     </recent_temporary>
   </component>
@@ -73,10 +84,61 @@
       <workItem from="1578127948077" duration="2076000" />
       <workItem from="1578155089952" duration="608000" />
       <workItem from="1578159597109" duration="2425000" />
+      <workItem from="1578315695933" duration="11312000" />
+      <workItem from="1578470752588" duration="619000" />
+      <workItem from="1578479761663" duration="1798000" />
+      <workItem from="1578717005394" duration="7373000" />
+      <workItem from="1578806268887" duration="10522000" />
+      <workItem from="1578887502636" duration="26000" />
+      <workItem from="1579148563021" duration="6022000" />
+      <workItem from="1579171443945" duration="25000" />
+      <workItem from="1579580760427" duration="2838000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="1176" y="542" key="FileChooserDialogImpl" timestamp="1579171467546">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state x="1176" y="542" key="FileChooserDialogImpl/0.0.2560.1400/2560.0.1920.1040@0.0.2560.1400" timestamp="1579171467546" />
+    <state width="1292" height="213" key="GridCell.Tab.0.bottom" timestamp="1579582572488">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state width="1292" height="213" key="GridCell.Tab.0.bottom/0.0.2560.1400/2560.0.1920.1040@0.0.2560.1400" timestamp="1579582572488" />
+    <state width="1292" height="213" key="GridCell.Tab.0.center" timestamp="1579582572488">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state width="1292" height="213" key="GridCell.Tab.0.center/0.0.2560.1400/2560.0.1920.1040@0.0.2560.1400" timestamp="1579582572488" />
+    <state width="1292" height="213" key="GridCell.Tab.0.left" timestamp="1579582572487">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state width="1292" height="213" key="GridCell.Tab.0.left/0.0.2560.1400/2560.0.1920.1040@0.0.2560.1400" timestamp="1579582572487" />
+    <state width="1292" height="213" key="GridCell.Tab.0.right" timestamp="1579582572488">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state width="1292" height="213" key="GridCell.Tab.0.right/0.0.2560.1400/2560.0.1920.1040@0.0.2560.1400" timestamp="1579582572488" />
+    <state width="1292" height="213" key="GridCell.Tab.1.bottom" timestamp="1579582572488">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state width="1292" height="213" key="GridCell.Tab.1.bottom/0.0.2560.1400/2560.0.1920.1040@0.0.2560.1400" timestamp="1579582572488" />
+    <state width="1292" height="213" key="GridCell.Tab.1.center" timestamp="1579582572488">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state width="1292" height="213" key="GridCell.Tab.1.center/0.0.2560.1400/2560.0.1920.1040@0.0.2560.1400" timestamp="1579582572488" />
+    <state width="1292" height="213" key="GridCell.Tab.1.left" timestamp="1579582572488">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state width="1292" height="213" key="GridCell.Tab.1.left/0.0.2560.1400/2560.0.1920.1040@0.0.2560.1400" timestamp="1579582572488" />
+    <state width="1292" height="213" key="GridCell.Tab.1.right" timestamp="1579582572488">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state width="1292" height="213" key="GridCell.Tab.1.right/0.0.2560.1400/2560.0.1920.1040@0.0.2560.1400" timestamp="1579582572488" />
+    <state x="745" y="55" width="578" height="818" key="dock-window-1" timestamp="1579582477486">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state x="745" y="55" width="578" height="818" key="dock-window-1/0.0.2560.1400/2560.0.1920.1040@0.0.2560.1400" timestamp="1579582477486" />
   </component>
 </project>
