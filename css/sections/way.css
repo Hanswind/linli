@@ -84,8 +84,12 @@
 
 @media all and (max-width: 700px) {
     .way > div {
-        width : 80%;
-        min-height: 70vw;
+        width : 90%;
+        min-height: 80vw;
         height : auto;
+    }
+
+    .more_maps {
+        flex-direction: column;
     }
 }
