@@ -118,4 +118,8 @@ article {
   .linli_images .linli_image {
     height : 50vw;
   }
+
+  .linli_images .linli_image:hover {
+    transform: scale(1.1, 1.1)
+  }
 }
