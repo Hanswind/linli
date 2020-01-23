@@ -38,7 +38,6 @@
 
 .blog_info {
     width : 100%;
-    padding-left : 20px;
     display: flex;
     justify-content: space-between;
 }
@@ -61,4 +60,10 @@
 
 .no_cursor {
     cursor : default;
+}
+
+@media all and (max-width: 500px){
+    .blog-discription span {
+        display: none;
+    }
 }
