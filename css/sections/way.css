@@ -93,3 +93,9 @@
         flex-direction: column;
     }
 }
+
+/* 애니메이션 css */
+.way-info div {
+    animation-delay: 0.5s;
+    animation : fadeInText 1s linear forwards;
+}

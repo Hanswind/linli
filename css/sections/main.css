@@ -26,6 +26,8 @@
   padding: 0 30px;
   font-size: 25px;
   font-weight: lighter;
+  animation-delay: 0.5s;
+  animation : fadeInText 1s linear forwards;
 }
 
 .intro_detail:hover {
@@ -112,6 +114,10 @@
   font-weight: 400;
 }
 
+.discription p, .discription li {
+  animation-delay: 0.5s;
+  animation : fadeInText 1s linear forwards;
+}
 .discription > p {
   font-size: 30px;
 }
@@ -126,11 +132,6 @@
 
 .discription > ul > p {
   font-size: 25px;
-}
-
-.view_more:hover {
-  border: 1px solid #673A71;
-  transition : all 1s ease-in-out;
 }
 
 .discription > .view_more:hover {
