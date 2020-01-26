@@ -1,6 +1,67 @@
 @import "../struct.css";
 
 article {
-    background-color : #999999;
-    height: 400px;
+    font-weight: lighter;
+}
+
+/* 올인원 시술이란 - article css */
+.all-intro {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 25px;
+    padding : 25px 0
+}
+
+.all-intro p {
+    margin : 0 auto;
+}
+
+
+/* 올인원 시술로 개선시킬수 있는 피부 - article css */
+.all-improve {
+
+    display: flex;
+    flex-direction : column;
+    justify-content: center;
+    align-items: center;
+}
+
+.all-improve h1 {
+    font-size: 23px;
+    font-weight: lighter;
+}
+
+.all-improve ul {
+    padding : 0;
+    list-style: none;
+    text-align: center;
+    font-size: 20px;
+}
+
+.all-improve li {
+    margin : 5px 0;
+}
+
+/* 시술과정 - article css */
+.all-process {
+    background-image: url("../../images/allinOne-bg.jpg");
+    background-size: 100% 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.all-process h1 {
+    font-size : 30px;
+}
+.all-process h1, .all-process h3 {
+    font-weight: lighter;
+}
+
+.all-process ul {
+    list-style: none;
+    text-align: left;
 }
