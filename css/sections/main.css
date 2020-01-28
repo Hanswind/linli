@@ -170,6 +170,23 @@
   height: 40%;
 }
 
+.location p {
+
+  margin : 30px 0;
+  font-size : 13px;
+  font-weight: lighter;
+}
+
+.location .map-icon {
+  margin : 0 auto;
+  width: 40%;
+  height : 40%;
+  background-image: url("../../images/maps-and-flags.svg");
+  background-size: 100% 100%;
+}
+
+
+
 .contact {
   /* 대표번호 */
   background-color: #eee;
