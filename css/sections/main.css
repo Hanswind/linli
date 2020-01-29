@@ -221,8 +221,7 @@
 .call:hover {
   background-color: #673a71;
   color: #e2d3e5;
-  transition: background-color 0.2s;
-  -webkit-transition: background-color 0.2s;
+  transition: background-color 0.5s, color 0.5s;
 }
 
 /* 마우스 오버시 커서 */
