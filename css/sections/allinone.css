@@ -6,6 +6,8 @@ article {
 
 /* 올인원 시술이란 - article css */
 .all-intro {
+    background-image: url("../../images/allinOne-bg.jpg");
+    background-size: 100% 100%;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -25,7 +27,8 @@ article {
     flex-direction : column;
     justify-content: center;
     align-items: center;
-    margin-bottom: 80px;
+    margin-top: 80px;
+    margin-bottom: 45px;
 }
 
 .all-improve h1 {
@@ -47,8 +50,7 @@ article {
 
 /* 시술과정 - article css */
 .all-process {
-    background-image: url("../../images/allinOne-bg.jpg");
-    background-size: 100% 100%;
+    background-color: #eee;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -73,3 +75,55 @@ h1 {
     list-style: none;
     text-align: left;
 }
+
+
+/* 동적웹 */
+@media all and (max-width: 1200px) {
+    /* article - 올인원 반응형 */
+    .all-intro > p {
+        font-size: 2.3vw;
+    }
+}
+
+@media all and (max-width: 1000px) {
+    .all-improve h1 {
+        font-size: 3.5vw;
+    }
+    .all-improve li {
+        font-size: 3vw;
+    }
+    .all-process {
+        height: auto;
+    }
+
+    .all-process h3 {
+        font-size: 3vw;
+    }
+
+    h1 {
+        font-size: 6vw;
+
+    }
+}
+
+/* 애니메이션 css */
+.all-intro p, .all-improve {
+    opacity: 0;
+    transform: translateY(50px);
+}
+
+.all-intro p:first-child {
+    animation : fadeInText 1s linear forwards;
+    animation-delay: 0.5s;
+}
+
+.all-intro p:nth-child(2){
+    animation : fadeInText 1s linear forwards;
+    animation-delay: 1s;
+}
+
+.all-improve {
+    animation : fadeInText 1s linear forwards;
+    animation-delay: 1.5s;
+}
+
