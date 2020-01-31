@@ -6,8 +6,7 @@ article {
 
 /* 올인원 시술이란 - article css */
 .all-intro {
-    background-image: url("../../images/allinOne-bg.jpg");
-    background-size: 100% 100%;
+
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -18,6 +17,19 @@ article {
 
 .all-intro p {
     margin : 0 auto;
+}
+
+.all-d {
+    position: relative;
+    width: 100%;
+    text-align: center;
+}
+.all-m {
+    display: none;
+    position: absolute;
+    top: 0;
+    width: inherit;
+    height: inherit;
 }
 
 
@@ -50,7 +62,9 @@ article {
 
 /* 시술과정 - article css */
 .all-process {
-    background-color: #eee;
+    background-image: url("../../images/allinOne-bg.jpg");
+    overflow: hidden;
+    background-size: 100% 100%;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -66,6 +80,7 @@ h1 {
 .all-process h3 {
     font-size : 25px;
     font-weight: lighter;
+    padding : 8px 0;
 }
 .all-process h1, .all-process h3 {
 
@@ -80,24 +95,30 @@ h1 {
 /* 동적웹 */
 @media all and (max-width: 1200px) {
     /* article - 올인원 반응형 */
-    .all-intro > p {
-        font-size: 2.3vw;
+    .all-d {
+        height: 200px;
+    }
+    .all-d > p{
+        display: none;
+    }
+    .all-m {
+        display: inline-block;
     }
 }
 
 @media all and (max-width: 1000px) {
     .all-improve h1 {
-        font-size: 3.5vw;
+        font-size: 4.5vw;
     }
     .all-improve li {
-        font-size: 3vw;
+        font-size: 4vw;
     }
     .all-process {
         height: auto;
     }
 
     .all-process h3 {
-        font-size: 3vw;
+        font-size: 4vw;
     }
 
     h1 {

@@ -46,7 +46,7 @@
   font-weight: bold;
 }
 .slider_wrap {
-  padding: 10px 10%;
+  padding: 10px 30%;
   margin: 0 auto;
   height: auto;
   position: relative;
@@ -237,6 +237,13 @@
   }
   .slider {
     margin: 0 auto;
+  }
+}
+
+@media all and (max-width: 786px){
+  .slider_wrap {
+    padding : 10px 10%;
+    height: auto;
   }
 }
 
